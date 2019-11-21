@@ -1,5 +1,23 @@
 .info-1, .info-2, .info-3 {
-    width: 30%;
+    max-width: 30%;
     color: white;
     text-shadow: 1px 1px 1px black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    padding: 1rem;
+    border-radius: 15px;
+    display: inline-block;
+}
+
+.info-1 {
+    background-image: url("assets/task2-bg.jpeg");
+}
+
+.info-2 {
+    background-image: url("assets/task2-bg1.jpeg");
+}
+
+.info-3 {
+    background-image: url("assets/task2-bg2.jpg");
 }
